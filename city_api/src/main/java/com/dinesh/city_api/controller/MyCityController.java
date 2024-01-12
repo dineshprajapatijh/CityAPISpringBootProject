@@ -23,7 +23,7 @@ public class MyCityController {
         cityService.save(city);
     }
 
-    @GetMapping("/")
+    @GetMapping("/home")
     public String get()
     {
         return "index.html";
